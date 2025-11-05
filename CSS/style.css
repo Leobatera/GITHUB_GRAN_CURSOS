@@ -1,0 +1,65 @@
+body{
+            background-color: #2b0202;
+            color: #fff;
+            margin: 0;
+        }
+
+        /* H1 é chamado de seletor de elementos */
+        h1 , h2{
+            color: red;
+            text-align: center;
+            
+        }
+
+        h1{
+            text-transform: uppercase;
+        }
+
+        p{
+            text-align: justify;
+            color: #fff;
+        }
+        /* seletor de classe */
+        .destaque{
+            background-color: brown;
+            color: white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        /* seletor de id */
+        #img-logo{
+            width: 100px;
+            display: block;
+            margin: auto;
+        }
+        /* deixa todas as li dentro da nav na horizontal */
+        nav li{
+            display: inline;
+            margin-left: 10px;
+            color: #b61a1aec;
+            font-weight: bold;
+            border: 2px solid #b61a1aec;
+            padding: 5px;
+        }
+
+        nav{
+            float: right;
+        }
+        header{
+            background-color: #ccc;
+        }
+
+        main{
+            margin: auto 20%;
+            background-color: #2b0202;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
