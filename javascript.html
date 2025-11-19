@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+<script>
+    var nome = "João";
+    var n1 = 2;
+    //nenhuma variável pode começar com número
+    //todas as variáveis são case sensitive
+    n1 = 123
+    //todo valor atribuído a uma variável sobrescreve o valor anterior
+    alert(n1)
+    //exibe uma caixa de alerta com o ultimo valor da variável n1
+    console.log(nome)
+    //exibe no console do navegador o valor da variável nome
+    const pi = 3.14;
+    //constante não pode ter seu valor alterado
+    let idade = 25;
+    //let é uma variável de escopo local e que pode ter seu valor alterado
+    sobrenome = "Silva"
+    //variavel do tipo string
+    let n2 = 2.4
+    //numérica do tipo float ou integer
+    let aprovado = true
+    //variável do tipo booleano
+
+    const pergunta = prompt("Qual é o seu nome?")
+    console.log(pergunta)
+    //exibe uma caixa de pergunta para o usuário e armazena a resposta na variável
+    document.write(pergunta)
+    //escreve diretamente na página HTML uma mensagem de boas vindas ao usuário
+
+    const m1 = parseFloat(prompt("Digite um número:"))
+    const m2 = parseFloat(prompt("Digite outro número:"))
+
+    //Operadores
+    
+    
+    const a1 = 10
+    const a2 = 7
+    const minimo = 9
+    
+    console.log('Operadores Aritméticos + - * / % ++ --')
+    console.log(a1 + a2) //Soma
+    console.log(a1 - a2) //Subtração
+    console.log(a1 * a2) //Multiplicação
+    console.log(a1 / a2) //Divisão
+    console.log(a1 % a2) //Resto da divisão
+
+    console.log('Operadores relacionais > < >= <= == === != !==')
+    console.log(a1 == a2) //Igualdade de valor
+    console.log(a1 != a2) //Diferença de valor
+    console.log(a1 > a2)  //Maior que
+    console.log(a1 < a2)  //Menor que
+    console.log(a1 >= a2) //Maior ou igual a
+    console.log(a1 <= a2) //Menor ou igual a
+
+    console.log('Operadores Lógicos && || !')
+    console.log(aprovado) //Valor verdadeiro
+    console.log(!aprovado) //Negação, valor falso
+    console.log( n2 >= 7 && n2 >= minimo) //E
+    console.log( n2 >= 7 || n2 >= minimo) //Ou
+
+</script>
+</head>
+<body>
+    
+</body>
+</html>
