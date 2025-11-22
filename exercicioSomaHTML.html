@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+
+        function somar() {
+            // Passo 1 - Entrada de dados
+            const n1 = document.getElementById("n1").value
+            const n2 = document.getElementById("n2").value
+
+
+            // Passo 2 - Processamento
+            const soma = Number(n1) + Number(n2)
+
+            /*const resultado = document.getElementById("resultado")
+            resultado.innerText = "O resultado é: " + soma*/
+            
+            //Essa é a mesma forma de fazer que a debaixo
+
+            const resultado = document.getElementById("resultado").innerHTML = "O resultado é: " + soma
+
+            // Passo 3 - Saída de dados
+            alert("A soma dos números é: " + soma)
+            console.log("A soma dos números é: " + soma)
+        }
+
+    </script>
+</head>
+<body>
+
+    <form action="">
+        N1: <input type="text" id="n1"><br><br>
+        N1: <input type="text" id="n2"><br><br>
+        <input type="button" value="Somar" onclick="somar()">
+        <!--<button type="button">somar</button>-->
+        <!-- o button é mais usado em formulários e são as mesmas coisas -->
+
+        <h1 id="resultado">O resultado é: </h1>
+    </form>
+    
+</body>
+</html>
