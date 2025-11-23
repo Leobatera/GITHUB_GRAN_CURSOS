@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Estruturas de Condição</title>
+
+    <script>
+        const salario = 1000
+        const cargo = prompt("Digite seu cargo na empresa: Estagiario, Analista, Gerente, Presidente");
+        let aumento = 0
+
+         /* Verificar o aumento de salário conforme o cargo
+         Estagiario: 100%
+         Analista: 50%
+         Gerente: 30%
+         Presidente: 10%
+         */
+
+         switch(cargo) {
+            case 'Estagiario':
+                console.log("Seu aumento será de 100%");
+                    aumento = 1; break;
+            case 'Analista':
+                console.log("Seu aumento será de 50%");
+                    aumento = 0.5; break;
+            case 'Gerente':
+                console.log("Seu aumento será de 30%");
+                    aumento = 0.3; break;
+            case 'Presidente':
+                console.log("Seu aumento será de 10%");
+                    aumento = 0.1; break;
+            default: alert("Cargo inválido!");
+         }
+        const novoSalario = salario + (salario * aumento);
+        console.log(`Seu novo salário é de R$ ${novoSalario.toFixed(2)}`);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Estruturas de Condição</title>
+
+    <script>
+        const n1 = Number(prompt("digite a primeira nota:"));
+        const n2 = Number(prompt("digite a segunda nota:"));
+        const n3 = Number(prompt("digite a terceira nota:"));
+        const n4 = Number(prompt("digite a quarta nota:"));
+
+        const media = (n1 + n2 + n3 + n4) / 4;
+        console.log(`A média do aluno é ${media}`);
+
+        if(media >= 7) {
+            console.log("Aluno aprovado!");
+        } else if(media < 5){
+            console.log("Aluno reprovado!");
+        } else {
+            console.log("Aluno em recuperação!");
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
